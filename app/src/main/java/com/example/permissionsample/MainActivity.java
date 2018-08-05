@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void makeCall() {
-        String url = "tel:" + "0955000619";
+        String url = "tel:" + "09421032993";
         Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse(url));
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
